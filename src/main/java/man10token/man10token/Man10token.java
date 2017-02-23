@@ -24,7 +24,6 @@ public final class Man10token extends JavaPlugin {
         // Plugin shutdown logic
         getLogger().info("disabled man10 token gen");
     }
-
     String mysqlip = this.getConfig().getString("server_config.mysql_ip");
     String mysport = this.getConfig().getString("server_config.mysql_port");
     String mysqlid = this.getConfig().getString("server_config.mysql_id");
