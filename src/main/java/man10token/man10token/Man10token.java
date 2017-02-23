@@ -17,7 +17,6 @@ public final class Man10token extends JavaPlugin {
         this.saveDefaultConfig();
         configReload();
     }
-
     @Override
     public void onDisable() {
         // Plugin shutdown logic
