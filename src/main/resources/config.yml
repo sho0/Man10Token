@@ -1,0 +1,18 @@
+server_config:
+  mysql_ip: localhost
+  mysql_port: 3306
+  mysql_id: root
+  mysql_pass:
+  db_name:
+  token_info:
+generator_option:
+ length: 10
+ char_setting:
+  use:
+   a_to_z: true
+   A_to_Z: false
+   0_to_9: false
+
+ enable_custom_char_set:
+  enable: false
+  charset: abcdefghijklmnopqrstuvwxyz0123456789
