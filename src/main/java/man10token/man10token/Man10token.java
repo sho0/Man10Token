@@ -8,7 +8,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.sql.*;
 import java.util.Random;
 
-
 public final class Man10token extends JavaPlugin {
 
     @Override
