@@ -39,7 +39,6 @@ public final class Man10token extends JavaPlugin {
     boolean useAtoZ = this.getConfig().getBoolean("generator_option.char_setting.use.A_to_Z");
     boolean use0to9 = this.getConfig().getBoolean("generator_option.char_setting.use.0_to_9");
 
-
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         Player p = (Player) sender;
