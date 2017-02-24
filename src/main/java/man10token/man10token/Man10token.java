@@ -53,6 +53,8 @@ public final class Man10token extends JavaPlugin {
         }
         return true;
     }
+    Random r = new Random();
+
     public void sendMySql(String uuid, String token,Player p){
         Connection conn = null;
         try {

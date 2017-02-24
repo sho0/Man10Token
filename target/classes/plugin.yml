@@ -1,0 +1,8 @@
+name: Man10token
+version: 1.0
+main: man10token.man10token.Man10token
+commands:
+    tokengen:
+        description: generates token for billboard
+    tokengenreload:
+        description: reloads config for token gen
