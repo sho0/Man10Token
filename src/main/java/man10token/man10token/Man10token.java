@@ -4,6 +4,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.scheduler.BukkitRunnable;
 
 import java.sql.*;
 import java.util.Random;
@@ -124,5 +125,13 @@ public final class Man10token extends JavaPlugin {
         use0to9 = this.getConfig().getBoolean("generator_option.char_setting.use.0_to_9");
         getLogger().info("config reloaded");
         return;
+    }
+
+    public void testBukkitRunnable(){
+        new BukkitRunnable(){
+            public void run(){
+
+            }
+        }.runTaskTimer(this, 5, 5);
     }
 }
